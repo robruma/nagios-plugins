@@ -1,5 +1,7 @@
-check_blacklist.pl
+Random scripts I've written that someone may find useful.
 ==================
+
+check_blacklist.pl
 
 Generic Nagios check for blacklist monitoring
 
