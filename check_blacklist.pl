@@ -29,7 +29,7 @@ usage() if(@ARGV < 1 or ! GetOptions('ip=s' => \$ip, 'dnsbl=s' => \@dnsblall, 'h
 usage() if($ip !~ /^([0-9]{1,3})\.([0-9]{1,3})\.([0-9]{1,3})\.([0-9]{1,3})$/) and print "IP regex error\n";
 
 # dnsbl zones we only want to warn about
-@dnsblwarn = ("ips.backscatterer.org", "st.technovision.dk", " ip.v4bl.org");
+@dnsblwarn = ("ips.backscatterer.org", "st.technovision.dk", "ip.v4bl.org");
 
 if(defined $debug and @dnsblall) { print "Override dnsbl zone list: @dnsblall\n\n"; }
 if(defined $debug and ! @dnsblall) { print "Warning dnsbl zone list: @dnsblwarn\n\n"; }
