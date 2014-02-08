@@ -1,4 +1,4 @@
-Random scripts I've written that someone may find useful.
+Nagios plugins
 ==================
 
 check_blacklist.pl
