@@ -11,7 +11,7 @@ Usage: check_blacklist.pl --ip ip [--dnsbl zone[,zone,...]][--debug][--help|-?]
 
 ####check_tomcat.pl
 
-Generic Nagios JSESSIONID check for Tomcat --rruma@fas.harvard.edu
+Generic Nagios JSESSIONID check for Tomcat
 
 Allows for a generic check between two requests to the given host and does
 comparisons within each request to verify the JSESSIONID cookie string is
