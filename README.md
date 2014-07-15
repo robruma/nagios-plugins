@@ -17,4 +17,4 @@ Allows for a generic check between two requests to the given host and does
 comparisons within each request to verify the JSESSIONID cookie string is
 the same in the header and body content and different between each request
 
-Usage: /usr/local/nagios2/libexec/FAS/check_tomcat.pl --hostname <fqdn> --path <path> [--port <port>][--secure][--debug][--help|-?]
+Usage: check_tomcat.pl --hostname <fqdn> --path <path> [--port <port>][--secure][--debug][--help|-?]
