@@ -18,3 +18,4 @@ comparisons within each request to verify the JSESSIONID cookie string is
 the same in the header and body content and different between each request
 
 Usage: check_tomcat.pl --hostname <fqdn> --path <path> [--port <port>][--secure][--debug][--help|-?]
+
